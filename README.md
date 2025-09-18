@@ -13,7 +13,8 @@ colorama
 Install dependencies: pip install paramiko colorama
 
 # Usage: 
-python ssh_audit.py <host> -u <username> -w <wordlist.txt> [options]
+python ssh_a.py <host> -u <username> -w <wordlist.txt> [options]
+python advanced_ssh_cracker.py  127.0.0.1 --port 2222 -U usernames.txt -g -c kail --min_length 4 --max_length 4
 
 # Key options:
 Option	Description
